@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
+  ruby '1.9.3'
 
-
-gem 'rails', '3.2.4'
-# gem 'rails', '4.0.0'
-gem 'bootstrap-sass', '2.3.2.2'
+  gem 'rails', '3.2.4'
+  # gem 'rails', '4.0.0'
+  gem 'bootstrap-sass', '2.3.2.2'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -19,9 +19,9 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.2'
+  gem 'jquery-rails', '2.0.2'
 
-gem 'rack', '1.4.1'
+  gem 'rack', '1.4.1'
 
 group :development, :test do
   gem 'guard-spork', '1.2.0'
@@ -39,3 +39,5 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+  gem 'rails_12factor'
